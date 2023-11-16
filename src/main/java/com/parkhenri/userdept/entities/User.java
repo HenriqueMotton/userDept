@@ -14,8 +14,7 @@ public class User {
     @JoinColumn(name = "department_id")
     private Department department;
 
-    public User(Long id) {
-        this.id = id;
+    public User() {
     }
 
     public Long getId() {
